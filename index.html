@@ -5,38 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Residencial Belvedere</title>
 <style>
-  * {
-    box-sizing: border-box;
-  }
-
   html, body {
     margin: 0;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     background: #123b2f;
   }
 
   body {
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
-  }
-
-  .wrap {
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
+    overflow: hidden;
   }
 
   img {
-    display: block;
-    width: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
     height: auto;
+    display: block;
   }
 </style>
 </head>
 <body>
-  <main class="wrap">
-    <img src="landing.png" alt="Residencial Belvedere">
-  </main>
+  <img src="landing.png" alt="Residencial Belvedere">
 </body>
 </html>
